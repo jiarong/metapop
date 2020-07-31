@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 options <- commandArgs()
 
 options <- options[!grepl("--args", options)]
